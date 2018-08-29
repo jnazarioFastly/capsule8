@@ -21,6 +21,6 @@
 
 - __Sensor (pkg/sensor)__ - Actual structural instance of the Capsule8 sensor's process. Contains handles on info caches. 
 
-- __Info Caches__ - Clients to Event Monitor. These listen to streams of sample records while maintaing metadata caches. These emit annotations which are then packed into telemetry events. Found in [pkg/sensor](github.com/capsule8/capsule8/pkg/sensor).
+- __Info Caches__ - Clients to Event Monitor. These listen to streams of sample records while maintaining metadata caches. These emit annotations which are then packed into telemetry events. Found in [pkg/sensor](github.com/capsule8/capsule8/pkg/sensor).
  
 - __Telemetry Service__ - A [grpc](https://grpc.io/) server that allows telemetry clients to send subscription objects and receive telemetry events.
